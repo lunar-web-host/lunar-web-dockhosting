@@ -1,0 +1,53 @@
+{
+  "backendUrl": "https://lunar-web-5ql8.onrender.com",
+  "payloadSha256": "425ac1fa3d47b91c398277ad886cf8ed881d61369b4f6e4bee2abf504b756116",
+  "payloadIntegrity": true,
+  "batches": [
+    {
+      "folder": "01-upload-part-001",
+      "files": 1,
+      "bytes": 8388608
+    },
+    {
+      "folder": "02-upload-part-002",
+      "files": 1,
+      "bytes": 8388608
+    },
+    {
+      "folder": "03-upload-part-003",
+      "files": 1,
+      "bytes": 8388608
+    },
+    {
+      "folder": "04-upload-part-004",
+      "files": 1,
+      "bytes": 8388608
+    },
+    {
+      "folder": "05-upload-part-005",
+      "files": 1,
+      "bytes": 8388608
+    },
+    {
+      "folder": "06-upload-part-006",
+      "files": 1,
+      "bytes": 8388608
+    },
+    {
+      "folder": "07-upload-part-007",
+      "files": 1,
+      "bytes": 8388608
+    },
+    {
+      "folder": "08-upload-part-008",
+      "files": 1,
+      "bytes": 5340075
+    },
+    {
+      "folder": "09-upload-last",
+      "files": 11,
+      "bytes": 13908
+    }
+  ],
+  "checksumLineEndingRepair": "Dockerfile normalizes CRLF before both SHA-256 checks"
+}

@@ -1,0 +1,105 @@
+{
+  "formatVersion": 1,
+  "kind": "lunar-web-github-upload",
+  "personalStateIncluded": false,
+  "deploymentReady": true,
+  "status": "configured",
+  "backendUrl": "https://lunar-web-5ql8.onrender.com",
+  "payloadSha256": "425ac1fa3d47b91c398277ad886cf8ed881d61369b4f6e4bee2abf504b756116",
+  "payloadBytes": 64060331,
+  "payloadFileCount": 1651,
+  "partBytes": 8388608,
+  "parts": 8,
+  "files": [
+    {
+      "path": "Dockerfile",
+      "bytes": 1895,
+      "sha256": "d3b4a6cafabd868ea19d3b1dedc4e3196f3e17bbcb45adba7ffbbf91270b240c"
+    },
+    {
+      "path": "docs/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/config.js",
+      "bytes": 81,
+      "sha256": "f61070f52c281ce67c8038b3757fbe99d77a5594e254bc15c7a821fbbfe46399"
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 1575,
+      "sha256": "2795a804b824477f266d79d526181655680de0a1e3ee8384631780252fe0c70a"
+    },
+    {
+      "path": "docs/launcher.css",
+      "bytes": 2074,
+      "sha256": "cd9f65002856320836e36319dd14d112b241e78a0b7675f143fbd1b44044f4a1"
+    },
+    {
+      "path": "docs/launcher.js",
+      "bytes": 1944,
+      "sha256": "223935917d4b3b092c5fd51c1bb262ba62550bdae7ccba178520c9c7c77ac668"
+    },
+    {
+      "path": "payload-001.part",
+      "bytes": 8388608,
+      "sha256": "11e63c180f08802aa8b6d3d55484465127fb2c867c24f78d421ea749d26af690"
+    },
+    {
+      "path": "payload-002.part",
+      "bytes": 8388608,
+      "sha256": "70ca81c485b2e25915ad596cf3a1edb90ba643413be35f642601ec2745ea09c2"
+    },
+    {
+      "path": "payload-003.part",
+      "bytes": 8388608,
+      "sha256": "f164b74564c8bed0d68d8697d281f5e2cc13072e57eba91ce5df7ea76967ff11"
+    },
+    {
+      "path": "payload-004.part",
+      "bytes": 8388608,
+      "sha256": "bc4cbe5d36a1e4b7a97b00d8ff8b6545f419fb53ecc42de2cf709c287f6722b9"
+    },
+    {
+      "path": "payload-005.part",
+      "bytes": 8388608,
+      "sha256": "a812fe4441a81228f73e2a81c41832dce4c4bb2046629e378c9afd5c569807e2"
+    },
+    {
+      "path": "payload-006.part",
+      "bytes": 8388608,
+      "sha256": "ce9753ebbcd23c30c4f770798aaa052d042bf81c4373e09c9f4ac92147dc6436"
+    },
+    {
+      "path": "payload-007.part",
+      "bytes": 8388608,
+      "sha256": "ad52b8568c6a51dcff9b1d51c3775dd83b9ce8babe41796422d1c4d9bb785f58"
+    },
+    {
+      "path": "payload-008.part",
+      "bytes": 5340075,
+      "sha256": "8d52a1f418b6433c375b359d16874aa0e09400184913666f98af3d22da1d379a"
+    },
+    {
+      "path": "payload.parts.sha256",
+      "bytes": 672,
+      "sha256": "1e901d08c44e45958ce8c02b0ff4d60d2179c30f7de62b64f0a082e5cb9ed40b"
+    },
+    {
+      "path": "payload.sha256",
+      "bytes": 79,
+      "sha256": "dae1baf12a315955e65436ae1358fb7216ee2ee9ee307eb1a6b706b7ea95da9e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1897,
+      "sha256": "394b8dd91dc5108072c287ed083eaffb5acc4d9844486f859d8c75426ac93660"
+    },
+    {
+      "path": "render.yaml",
+      "bytes": 576,
+      "sha256": "3407c98fb377804810c9f9ffbd59d873c9ee073c985437ad2eca8a4556583240"
+    }
+  ]
+}

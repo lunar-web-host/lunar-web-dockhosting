@@ -1,0 +1,6 @@
+Upload the CONTENTS of each numbered folder separately, in order.
+Commit each upload to main before starting the next.
+Do not upload the numbered folders themselves or this outer folder.
+The folder ending upload-last must be the final upload.
+It contains Dockerfile, checksums and docs; Render builds after this commit.
+Do not upload ZIP files, the full project, or the old 20 MiB parts.

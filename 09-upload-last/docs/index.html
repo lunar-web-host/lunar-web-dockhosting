@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="referrer" content="no-referrer">
+  <title>Lunar Web</title>
+  <link rel="stylesheet" href="launcher.css">
+  <script src="config.js"></script>
+  <script defer src="launcher.js"></script>
+</head>
+<body>
+  <main>
+    <div class="moon" aria-hidden="true">◒</div>
+    <p class="eyebrow">LUNAR WEB</p>
+    <h1>Your client.<br>Your next adventure.</h1>
+    <p class="description">Play in your browser. Your hosted client handles Microsoft sign-in, Lunar services, and Minecraft connections.</p>
+    <p id="status" role="status" aria-live="polite">Preparing your hosted client...</p>
+    <a id="launch" class="button" hidden rel="noreferrer">Open Lunar Web <span aria-hidden="true">↗</span></a>
+    <form id="host-form" hidden>
+      <label for="render-url">Your Render service address</label>
+      <input id="render-url" name="render-url" type="url" placeholder="https://your-client.onrender.com" required autocomplete="url" spellcheck="false" aria-describedby="host-help">
+      <p id="host-help">Use the HTTPS address of your Lunar Web service. It is saved in this browser.</p>
+      <button type="submit" class="button">Open Lunar Web <span aria-hidden="true">↗</span></button>
+    </form>
+    <p class="footnote">A sleeping free host may take about a minute to start.</p>
+    <noscript><p>Enable JavaScript to open your hosted client.</p></noscript>
+  </main>
+</body>
+</html>

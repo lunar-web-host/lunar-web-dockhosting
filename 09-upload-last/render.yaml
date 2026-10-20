@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: lunar-web
+    runtime: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /healthz
+    autoDeployTrigger: commit
+    envVars:
+      - key: LUNARWEB_CLOUD
+        value: "true"
+      - key: LUNARWEB_LUNAR_DIR
+        value: /app/cloud/lunar-install
+      - key: LUNARWEB_DATA_DIR
+        value: /tmp/lunar-web
+      - key: LUNARWEB_PUBLIC_URL
+        value: "https://lunar-web-5ql8.onrender.com"
+    buildFilter:
+      paths:
+        - Dockerfile
+        - payload.sha256
