@@ -1,0 +1,20 @@
+{
+  "provider": "dockhosting",
+  "status": "draft-backend-pending",
+  "backendUrl": "",
+  "environment": {
+    "PORT": "10000",
+    "LUNARWEB_CLOUD": "true",
+    "LUNARWEB_LUNAR_DIR": "/app/cloud/lunar-install",
+    "LUNARWEB_DATA_DIR": "/tmp/lunar-web",
+    "LUNARWEB_MAX_SESSIONS": "16",
+    "LUNARWEB_MAX_CONNECTIONS": "192",
+    "JAVA_TOOL_OPTIONS": "-Xms32m -Xmx512m -XX:+UseSerialGC -Djava.awt.headless=true -Dfile.encoding=UTF-8"
+  },
+  "configuredSessionSlots": 16,
+  "authenticatedGameplayCapacityVerified": false,
+  "minimumEvaluationMemoryMiB": 1024,
+  "accountRegistrationVerified": false,
+  "liveDeploymentVerified": false,
+  "credentialsIncluded": false
+}
